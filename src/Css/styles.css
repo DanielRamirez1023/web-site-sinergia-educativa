@@ -1,0 +1,31 @@
+
+/*Css barra de navegacion*/
+header .navbar-nav .nav-item{
+    margin-right: 50px;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: aliceblue !important ;
+}
+
+header a img{
+    margin-left: 50px;
+}
+
+header nav{
+    background-color: #040B27 !important;
+}
+
+header .navbar-collapse{
+    flex-grow: 0;
+} 
+
+#icono-whatsapp{
+    font-size: 40px;
+    color: green;
+    position: relative;
+    top: 520px; left: 1300px;
+    
+}
+
+/*fin Css barra de navegacion*/
