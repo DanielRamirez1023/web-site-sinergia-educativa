@@ -21,6 +21,24 @@ header nav{
 header .navbar-collapse{
     flex-grow: 0;
 } 
+
+/*aun no funciona!!!!!!! */
+header nav  #subMenu{
+    display: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.186);
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 0px 10px 10px 0px;
+    padding: 0;
+    top:8px;
+    left:198px;
+    position: absolute;
+    list-style: none; 
+}
+
+header nav #nav-consultoria:hover #subMenu{
+    display: block !important;
+ }
+
 /*fin Css barra de navegacion*/
 
 
