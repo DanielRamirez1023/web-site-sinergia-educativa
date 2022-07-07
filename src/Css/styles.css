@@ -10,22 +10,44 @@ header .navbar-nav .nav-item .nav-link{
 
 header a img{
     margin-left: 50px;
+    border-radius: 50%; 
 }
 
 header nav{
-    background-color: #040B27 !important;
+    background-color: #1F4691!important;
+    
 }
 
 header .navbar-collapse{
     flex-grow: 0;
 } 
+/*fin Css barra de navegacion*/
 
-#icono-whatsapp{
-    font-size: 40px;
-    color: green;
-    position: relative;
-    top: 520px; left: 1300px;
-    
+
+/* Css main*/
+main #boton-ver-mas{
+    background-color: #1F4691 !important;
+    color: white;
 }
 
-/*fin Css barra de navegacion*/
+/*fin  Css main*/
+
+
+
+@media screen and (max-width:800px) {
+
+    header nav span .button.navbar-toggler{
+      border: 1px solid white;
+    
+    }
+
+    .navbar-toggler{
+        background-color: white;
+    }
+    #icono-whatsapp{
+        font-size: 40px;
+        
+        top: 520px; left: 280px;
+        
+    }
+}
