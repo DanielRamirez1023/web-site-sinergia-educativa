@@ -125,6 +125,7 @@ section h1{
   
   .items .button-container {
     position: absolute;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -168,4 +169,3 @@ section h1{
 
   /*Fin Secion de servicios  */
 
-  
