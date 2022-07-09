@@ -10,24 +10,32 @@ header .navbar-nav .nav-item .nav-link{
 
 header a img{
     margin-left: 50px;
+    border-radius: 50%; 
 }
 
 header nav{
-    background-color: #040B27 !important;
+    background-color: #1F4691!important;
+    
 }
 
 header .navbar-collapse{
     flex-grow: 0;
 } 
 
-#icono-whatsapp{
-    font-size: 40px;
-    color: green;
-    position: relative;
-    top: 520px; left: 1300px;
-    
+/*aun no funciona!!!!!!! */
+header nav  #subMenu{
+   
+    border: 1px solid rgba(0, 0, 0, 0.186);
+    /* top-left | top-right | bottom-right | bottom-left */
+    border-radius: 0px 10px 10px 0px;
+    padding: 0;
+    top:8px;
+    left:198px;
+    position: absolute;
+    list-style: none; 
 }
 
+<<<<<<< HEAD
 /*fin Css barra de navegacion*/
 
 /*css servicios landing page*/
@@ -43,3 +51,93 @@ header .navbar-collapse{
 #servicios,footer{
     background-color: #1363df;
 }
+=======
+header nav #nav-consultoria:hover #subMenu{
+    display: block !important;
+ }
+
+/*fin Css barra de navegacion*/
+
+
+/* Css main*/
+main #boton-ver-mas{
+    background-color: #1F4691 !important;
+    color: white;
+}
+
+/*fin  Css main*/
+
+
+
+@media screen and (max-width:800px) {
+
+    header nav span .button.navbar-toggler{
+      border: 1px solid white;
+    
+    }
+
+    .navbar-toggler{
+        background-color: white;
+    }
+    #icono-whatsapp{
+        font-size: 40px;
+        
+        top: 520px; left: 280px;
+        
+    }
+}
+
+/*luna*/
+
+    
+    .titulo {
+        margin: 0;
+        color: #000;
+        display: inline;
+        font-size: 50px;
+        font-weight: 500;
+        font-family: 'Dancing Script', cursive;
+    }
+    
+    .parrafo { 
+        color: rgb(7, 7, 7);
+        margin: 7px 0;
+        font-size: 20s;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+    
+    .linea-division {
+        width: 80%;
+        height: 2px;
+        background-color: #36221c;
+    }
+
+
+/*Estilos Materialize*/
+.carousel {
+    min-height: 500px;
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    user-select: none;
+    background: #ccc;
+    width: 500px;
+    height: 500px;
+
+}
+
+.carousel .carousel-item src {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+
+}
+>>>>>>> 3ff7c7ec45eb9b2fee13b116f60fe2c47c111c22
