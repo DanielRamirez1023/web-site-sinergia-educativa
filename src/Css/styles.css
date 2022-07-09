@@ -29,3 +29,17 @@ header .navbar-collapse{
 }
 
 /*fin Css barra de navegacion*/
+
+/*css servicios landing page*/
+
+#texto{
+    font-size: 2rem;
+    color: white;
+    grid-column: 5/9;
+    grid-row: 4/6;
+    z-index: 7;
+}
+
+#servicios,footer{
+    background-color: #1363df;
+}
