@@ -62,12 +62,24 @@ header #boton-ver-mas{
     .navbar-toggler{
         background-color: white;
     }
-    #icono-whatsapp{
-        font-size: 40px;
-        
-        top: 520px; left: 280px;
-        
+   
+    main .item.prev {
+      transform: translate(-48%, -50%);
     }
+    
+    main .item.next {
+      transform: translate(-48%, -50%);
+    }
+
+    section{
+      padding-bottom: 80% !important;
+    
+    }
+
+    .items .item {
+      top: 170% !important; 
+    }
+     
 }
 
 /*Secion de servicios  */
