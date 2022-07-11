@@ -181,3 +181,27 @@ section h1{
 
   /*Fin Secion de servicios  */
 
+/*inicio buzón datos y mapa*/
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(8,auto);
+}
+
+section{
+  background-color: #fff;
+  color: #212529;
+}
+
+#titulosection{
+  font-weight: bold;
+}
+
+#textosection{
+  text-align: center;
+}
+
+
+footer{
+  background-color: #1F4691;
+}
