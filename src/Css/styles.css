@@ -79,12 +79,16 @@ header #boton-ver-mas{
     .items .item {
       top: 170% !important; 
     }
+
+    iframe{
+      width: 350px !important;
+    }
      
 }
 
 /*Secion de servicios  */
-section{
-  background-color: #1F4691;
+#seccion-servicios{
+  background-color: #1F4691 !important;
   padding-top: 2%;
 
 }
