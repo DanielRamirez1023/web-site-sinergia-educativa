@@ -23,7 +23,7 @@ header .navbar-collapse{
 } 
 
 /*aun no funciona!!!!!!! */
-header nav  #subMenu{
+header nav  .subMenu{
     display: none;
     border: 1px solid rgba(0, 0, 0, 0.186);
     /* top-left | top-right | bottom-right | bottom-left */
@@ -35,9 +35,13 @@ header nav  #subMenu{
     list-style: none; 
 }
 
-header nav #nav-consultoria:hover #subMenu{
-    display: block !important;
+header nav .nav-consultoria:hover ~ .subMenu{
+   display: block;
  }
+
+ header nav .subMenu:hover{
+  display: block;
+}
 
 /*fin Css barra de navegacion*/
 
