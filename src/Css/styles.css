@@ -22,7 +22,6 @@ header .navbar-collapse{
     flex-grow: 0;
 } 
 
-/*aun no funciona!!!!!!! */
 header nav  .subMenu{
     display: none;
     border: 1px solid rgba(0, 0, 0, 0.186);
