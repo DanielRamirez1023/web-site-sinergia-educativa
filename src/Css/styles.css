@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif;
+}
 
 /*Css barra de navegacion*/
 header .navbar-nav .nav-item{
@@ -86,6 +89,27 @@ header #boton-ver-mas{
     iframe{
       width: 350px !important;
     }
+
+    header img{
+      margin-left: 30px;    
+    }
+
+    header h1{
+      text-align: center;
+    }
+    header p{
+      text-align: justify;
+    }
+
+    .button-container{  
+    transform: translate(-52%, 240%) !important; 
+    width: 320px !important;
+    }
+
+    .button-container .button{
+      opacity: 0.60 !important;
+      
+    }
      
 }
 
@@ -147,8 +171,8 @@ section h1{
 
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 275px;
+    transform: translate(-52%, -50%);
+    width: 330px;
     z-index: 100;
   }
   
@@ -719,6 +743,3 @@ width: 100px;
 .container2{
   background-color: #47b5ff !important;
 }
-
-
-
