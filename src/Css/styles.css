@@ -32,7 +32,7 @@ header nav  .subMenu{
     border-radius: 0px 10px 10px 0px;
     padding: 0;
     top:8px;
-    left:198px;
+    left:160px;
     position: absolute;
     list-style: none; 
 }
@@ -43,6 +43,26 @@ header nav .nav-consultoria:hover ~ .subMenu{
 
  header nav .subMenu:hover{
   display: block;
+}
+
+header nav  .subMenu2{
+  display: none;
+  border: 1px solid rgba(0, 0, 0, 0.186);
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 0px 10px 10px 0px;
+  padding: 0;
+  top:8px;
+  left:160px;
+  position: absolute;
+  list-style: none; 
+}
+
+header nav .nav-cursos:hover ~ .subMenu2{
+  display: block;
+}
+
+header nav .subMenu2:hover{
+ display: block;
 }
 
 /*fin Css barra de navegacion*/
@@ -117,7 +137,6 @@ header #boton-ver-mas{
 #seccion-servicios{
   background-color: #1F4691 !important;
   padding-top: 2%;
-
 }
 
 section h1{
@@ -135,7 +154,7 @@ section h1{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 300px;
-    height: 380px;
+    height: 430px;
     overflow: hidden;
     transition: all 300ms ease-in-out;
     z-index: -1;
@@ -742,3 +761,92 @@ width: 100px;
 .container2{
   background-color: #47b5ff !important;
 }
+
+/*Daniel Footer*/
+footer .nombres li{
+list-style: none;
+margin: 10px;
+}
+footer .icon-footer img{
+  border-radius: 100% !important;
+}
+footer{
+  padding: 5px;
+  background: #1F4691!important;
+  color: white !important;
+}
+
+footer a{
+  color: white !important;
+}
+
+footer .nombres a{
+text-decoration: none;
+}
+
+footer ul li a:hover{
+  border-bottom: 2px solid white;
+}
+
+footer .iconos{
+  display: flex;
+  width: 10%;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+
+.sub-pagina{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+  border: 1px solid black;
+  width: 80%;
+}
+
+.sub-pagina .caja-ingles{
+  margin-top: 7px;
+  padding: 20% 3% 0 5%;
+  color: white;
+  width: 410px;
+  height: 685px;
+  background-color: #a52161;
+}
+
+.sub-pagina .caja-marketing{
+  margin-top: 7px;
+  padding: 20% 3% 0 5%;
+  color: white;
+  width: 410px;
+  height: 685px;
+  background-color: #56c800;
+}
+
+.sub-pagina .caja-turismo{
+  margin-top: 7px;
+  padding: 20% 3% 0 5%;
+  color: white;
+  width: 410px;
+  height: 685px;
+  background-color: #fb7803;
+}
+
+.sub-pagina .caja{
+  padding: 25% 5% 0 8%;
+  width: 420px;
+  height: 600px;
+}
+
+
+
+main svg{
+  width: 50%;
+  margin-top: 20%;
+  margin-left: 25%;
+  position: absolute;
+  transform: rotate(90deg);
+  
+}
+
+
+
