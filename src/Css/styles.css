@@ -79,12 +79,22 @@ header #boton-ver-mas{
 /*fin  Css main*/
 
 
-
+/*adaptacion a cel */
 @media screen and (max-width:800px) {
 
     header nav span .button.navbar-toggler{
       border: 1px solid white;
     
+    }
+
+    header nav  .subMenu{
+      top:50px !important;
+      left:193px !important;
+    }
+
+    header nav  .subMenu2{
+      top:80px !important;
+      left:193px !important;
     }
 
     .navbar-toggler{
@@ -131,6 +141,44 @@ header #boton-ver-mas{
     .button-container .button{
       opacity: 0.60 !important;
       
+    }
+
+    .sub-pagina{
+      flex-direction: column-reverse;
+      width: 100% !important;
+    }
+
+    .caja-ingles{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-marketing{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-turismo{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-consultoria{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja{
+      padding-bottom: 15% !important;
+      width: 100% !important;
+      height: 0% !important;
+    }
+
+    main svg{
+      transform: rotate(0deg) !important;
+      margin-top: 86% !important;
+      margin-left: 0% !important;
+      width: 100% !important;
     }
      
 }
