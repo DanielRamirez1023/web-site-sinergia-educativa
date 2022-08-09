@@ -180,6 +180,19 @@ header #boton-ver-mas{
       margin-left: 0% !important;
       width: 100% !important;
     }
+
+    footer{
+      flex-direction: column !important;
+      text-align: center !important;
+    }
+
+    footer span{
+      margin-bottom: 15%;
+    }
+
+    footer .iconos{
+      width: 40% !important;
+    }
      
 }
 
@@ -821,9 +834,14 @@ footer .icon-footer img{
   border-radius: 100% !important;
 }
 footer{
-  padding: 5px;
+  padding: 3% 10% 1% 10%;
   background: #1F4691!important;
   color: white !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid white;
 }
 
 footer a{
