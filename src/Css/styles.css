@@ -26,6 +26,7 @@ header .navbar-collapse{
 } 
 
 header nav  .subMenu{
+    background: white;
     display: none;
     border: 1px solid rgba(0, 0, 0, 0.186);
     /* top-left | top-right | bottom-right | bottom-left */
@@ -46,6 +47,7 @@ header nav .nav-consultoria:hover ~ .subMenu{
 }
 
 header nav  .subMenu2{
+  background: white;
   display: none;
   border: 1px solid rgba(0, 0, 0, 0.186);
   /* top-left | top-right | bottom-right | bottom-left */
@@ -796,38 +798,45 @@ footer .iconos{
 }
 
 
+/* sub paginas */
 .sub-pagina{
   display: flex;
   justify-content: space-around;
-  margin-top: 7%;
-  border: 1px solid black;
+  margin: 7% 0 2% 0;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
   width: 80%;
+}
+
+.sub-pagina .caja-consultoria{
+  margin-top: 7px;
+  padding: 16% 3% 12% 5%;
+  color: white;
+  width: 37%;
+  background-color: #1f4691;
 }
 
 .sub-pagina .caja-ingles{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 12% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #a52161;
 }
 
 .sub-pagina .caja-marketing{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 12% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #56c800;
 }
 
 .sub-pagina .caja-turismo{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 12% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #fb7803;
 }
 
@@ -836,8 +845,6 @@ footer .iconos{
   width: 420px;
   height: 600px;
 }
-
-
 
 main svg{
   width: 50%;
