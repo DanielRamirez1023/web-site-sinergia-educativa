@@ -26,6 +26,7 @@ header .navbar-collapse{
 } 
 
 header nav  .subMenu{
+    background: white;
     display: none;
     border: 1px solid rgba(0, 0, 0, 0.186);
     /* top-left | top-right | bottom-right | bottom-left */
@@ -46,6 +47,7 @@ header nav .nav-consultoria:hover ~ .subMenu{
 }
 
 header nav  .subMenu2{
+  background: white;
   display: none;
   border: 1px solid rgba(0, 0, 0, 0.186);
   /* top-left | top-right | bottom-right | bottom-left */
@@ -77,12 +79,22 @@ header #boton-ver-mas{
 /*fin  Css main*/
 
 
-
+/*adaptacion a cel */
 @media screen and (max-width:800px) {
 
     header nav span .button.navbar-toggler{
       border: 1px solid white;
     
+    }
+
+    header nav  .subMenu{
+      top:50px !important;
+      left:193px !important;
+    }
+
+    header nav  .subMenu2{
+      top:80px !important;
+      left:193px !important;
     }
 
     .navbar-toggler{
@@ -129,6 +141,57 @@ header #boton-ver-mas{
     .button-container .button{
       opacity: 0.60 !important;
       
+    }
+
+    .sub-pagina{
+      flex-direction: column-reverse;
+      width: 100% !important;
+    }
+
+    .caja-ingles{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-marketing{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-turismo{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja-consultoria{
+      width: 100% !important;
+      margin-top: 10% !important;
+    }
+
+    .caja{
+      padding-bottom: 15% !important;
+      width: 100% !important;
+      height: 0% !important;
+    }
+
+    main svg{
+      transform: rotate(0deg) !important;
+      margin-top: 86% !important;
+      margin-left: 0% !important;
+      width: 100% !important;
+    }
+
+    footer{
+      flex-direction: column !important;
+      text-align: center !important;
+    }
+
+    footer span{
+      margin: 8% 0 8% 0 !important;
+    }
+
+    footer .iconos{
+      width: 40% !important;
     }
      
 }
@@ -771,9 +834,13 @@ footer .icon-footer img{
   border-radius: 100% !important;
 }
 footer{
-  padding: 5px;
+  padding: 3% 10% 1% 10%;
   background: #1F4691!important;
   color: white !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer a{
@@ -796,38 +863,45 @@ footer .iconos{
 }
 
 
+/* sub paginas */
 .sub-pagina{
   display: flex;
   justify-content: space-around;
-  margin-top: 7%;
-  border: 1px solid black;
+  margin: 7% 0 2% 0;
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
   width: 80%;
+}
+
+.sub-pagina .caja-consultoria{
+  margin-top: 7px;
+  padding: 16% 3% 19% 5%;
+  color: white;
+  width: 37%;
+  background-color: #1f4691;
 }
 
 .sub-pagina .caja-ingles{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 19% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #a52161;
 }
 
 .sub-pagina .caja-marketing{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 19% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #56c800;
 }
 
 .sub-pagina .caja-turismo{
   margin-top: 7px;
-  padding: 20% 3% 0 5%;
+  padding: 20% 3% 19% 5%;
   color: white;
-  width: 410px;
-  height: 685px;
+  width: 37%;
   background-color: #fb7803;
 }
 
@@ -836,8 +910,6 @@ footer .iconos{
   width: 420px;
   height: 600px;
 }
-
-
 
 main svg{
   width: 50%;
