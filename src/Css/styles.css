@@ -151,6 +151,7 @@ header #boton-ver-mas{
     .caja-ingles{
       width: 100% !important;
       margin-top: 6% !important;
+      text-align: center;
     }
 
     .caja-marketing{
@@ -165,7 +166,12 @@ header #boton-ver-mas{
 
     .caja-consultoria{
       width: 100% !important;
-      margin-top: 10% !important;
+      margin-top: 17% !important;
+    }
+
+    .caja-consultoria-empresarial{
+      width: 100% !important;
+      margin-top: 7% !important;
     }
 
     .caja{
@@ -192,6 +198,15 @@ header #boton-ver-mas{
 
     footer .iconos{
       width: 45% !important;
+    }
+    .seccion-pdfs{
+      display: block !important;
+      margin: auto !important;
+      
+    }
+
+    iframe{
+      width: 60% !important;
     }
      
 }
@@ -906,6 +921,14 @@ footer .iconos{
   background-color: #1f4691;
 }
 
+.sub-pagina .caja-consultoria-empresarial{
+  margin-top: 7px;
+  padding: 18% 3% 19% 5%;
+  color: white;
+  width: 37%;
+  background-color: #1f4691;
+}
+
 .sub-pagina .caja-ingles{
   margin-top: 7px;
   padding: 5% 3% 8% 5%;
@@ -943,6 +966,11 @@ main svg{
   position: absolute;
   transform: rotate(90deg);
   
+}
+
+.seccion-pdfs{
+  display: flex;
+  flex-direction: row;
 }
 
 
