@@ -205,6 +205,20 @@ border-radius: 3%;
 box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.186) !important; 
 }
 
+.features-icons .mision{
+  background: #506CC6;
+  
+  }
+
+  .features-icons .vision{
+    background: #86C7ED;
+    }
+
+    .features-icons .valores{
+      background: #506CC6;
+    
+      }
+
 /*Secion de servicios  */
 #seccion-servicios{
   background-color: #1F4691 !important;
@@ -910,7 +924,7 @@ footer .iconos{
 
 .sub-pagina .caja-turismo{
   margin-top: 7px;
-  padding: 20% 3% 14% 5%;
+  padding: 22% 3% 14% 5%;
   color: white;
   width: 37%;
   background-color: #fb7803;
@@ -925,7 +939,7 @@ footer .iconos{
 main svg{
   width: 50%;
   margin-top: 20%;
-  margin-left: 23%;
+  margin-left: 24%;
   position: absolute;
   transform: rotate(90deg);
   
