@@ -197,7 +197,7 @@ header #boton-ver-mas{
     }
 
     footer .iconos{
-      width: 45% !important;
+      width: 60% !important;
     }
     .seccion-pdfs{
       display: block !important;
@@ -897,7 +897,7 @@ footer ul li a:hover{
 
 footer .iconos{
   display: flex;
-  width: 14%;
+  width: 18%;
   justify-content: space-around;
   font-size: x-large;
 }
@@ -971,6 +971,28 @@ main svg{
 .seccion-pdfs{
   display: flex;
   flex-direction: row;
+}
+
+/*aliados */
+.seccion-aliados{
+  text-align: center;
+  margin: 4% 0 3% 0;
+}
+
+.imagenes-aliados{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imagenes-aliados img{
+  width: 15%;
+  margin: 0% 3% 0% 3%;
+}
+
+.seccion-aliados h1{
+  color: black;
+  padding: 0%;
 }
 
 
