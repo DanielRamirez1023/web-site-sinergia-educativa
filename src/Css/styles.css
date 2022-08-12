@@ -208,6 +208,15 @@ header #boton-ver-mas{
     .caja-ingles iframe{
       width: 60% !important;
     }
+
+    .imagenes-aliados{
+      flex-direction: column !important;
+    }
+
+    .imagenes-aliados img{
+      width: 40% !important;
+      margin-left: 30% !important;
+    }
      
 }
 
