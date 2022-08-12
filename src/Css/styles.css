@@ -234,6 +234,16 @@ box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.186) !important;
     
       }
 
+      .lista-valores li{
+        list-style: none;
+        text-align: left;
+        
+      }
+
+      .lista-valores {
+        margin-left: 20%;
+      }
+
 /*Secion de servicios  */
 #seccion-servicios{
   background-color: #1F4691 !important;
