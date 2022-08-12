@@ -150,7 +150,8 @@ header #boton-ver-mas{
 
     .caja-ingles{
       width: 100% !important;
-      margin-top: 6% !important;
+      margin-top: 5% !important;
+      text-align: center;
     }
 
     .caja-marketing{
@@ -165,7 +166,12 @@ header #boton-ver-mas{
 
     .caja-consultoria{
       width: 100% !important;
-      margin-top: 10% !important;
+      margin-top: 17% !important;
+    }
+
+    .caja-consultoria-empresarial{
+      width: 100% !important;
+      margin-top: 7% !important;
     }
 
     .caja{
@@ -191,7 +197,16 @@ header #boton-ver-mas{
     }
 
     footer .iconos{
-      width: 40% !important;
+      width: 45% !important;
+    }
+    .seccion-pdfs{
+      display: block !important;
+      margin: auto !important;
+      
+    }
+
+    .caja-ingles iframe{
+      width: 60% !important;
     }
      
 }
@@ -264,13 +279,13 @@ section h1{
   .item.prev {
     z-index: 2;
     opacity: 0.25;
-    transform: translate(-125%, -50%);
+    transform: translate(-143%, -50%);
   }
   
   .item.next {
     z-index: 2;
     opacity: 0.25;
-    transform: translate(25%, -50%);
+    transform: translate(44%, -50%);
   }
   
   .items .button-container {
@@ -882,7 +897,7 @@ footer ul li a:hover{
 
 footer .iconos{
   display: flex;
-  width: 10%;
+  width: 14%;
   justify-content: space-around;
   font-size: x-large;
 }
@@ -900,7 +915,15 @@ footer .iconos{
 
 .sub-pagina .caja-consultoria{
   margin-top: 7px;
-  padding: 16% 3% 19% 5%;
+  padding: 18% 3% 19% 5%;
+  color: white;
+  width: 37%;
+  background-color: #1f4691;
+}
+
+.sub-pagina .caja-consultoria-empresarial{
+  margin-top: 7px;
+  padding: 18% 3% 19% 5%;
   color: white;
   width: 37%;
   background-color: #1f4691;
@@ -908,7 +931,7 @@ footer .iconos{
 
 .sub-pagina .caja-ingles{
   margin-top: 7px;
-  padding: 24% 3% 15% 5%;
+  padding: 5% 3% 8% 5%;
   color: white;
   width: 37%;
   background-color: #a52161;
@@ -943,6 +966,11 @@ main svg{
   position: absolute;
   transform: rotate(90deg);
   
+}
+
+.seccion-pdfs{
+  display: flex;
+  flex-direction: row;
 }
 
 
